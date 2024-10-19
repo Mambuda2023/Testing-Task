@@ -1,0 +1,17 @@
+.dashboard-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+.dashboard-navigation-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}

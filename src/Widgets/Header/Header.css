@@ -1,0 +1,36 @@
+.header {
+  padding: 10px 10px;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-box {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.header-title {
+  font-size: 26px;
+  color: #343c6a;
+  font-weight: 600;
+  line-height: 33px;
+}
+.header-navigation-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-profile-img {
+  border-radius: 50%;
+}
+.header-navigation-item.search {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: 255px;
+  border: 1px solid #d3d4d6;
+  padding: 10px 10px;
+  border-radius: 16px;
+}
