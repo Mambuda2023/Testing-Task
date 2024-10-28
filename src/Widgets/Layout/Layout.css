@@ -13,13 +13,12 @@
   grid-area: header;
   grid-column: 1/4;
   grid-row: 1/2;
-  padding: 20px 0px;
+  padding: 20px 10px;
 }
 .main {
   grid-area: main;
   grid-column: 2/4;
   grid-row: 2/3;
-  /* height: 100vh; */
 }
 .nav-bar {
   height: 100vh;

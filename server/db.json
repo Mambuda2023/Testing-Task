@@ -1,0 +1,60 @@
+{
+  "user": {
+    "item": {
+      "img": "../src/MaskGroup@2x.png",
+      "yourName": "Charline Reed",
+      "email": "Charline@Reed",
+      "dateOfBirth": "25 Januar 1999",
+      "permanentAddress": "San Jdfgdose",
+      "costalCode": "452962",
+      "userName": "Charline Reed",
+      "password": "*****",
+      "presentAddress": "San Jose, California, USA",
+      "city": "San Jose",
+      "country": "USA"
+    },
+    "img": "",
+    "yourName": "Charline Reeddfsdfsdfdssdfsdf",
+    "email": "Charlineas@Reedsdfsd",
+    "dateOfBirth": "2024-10-10",
+    "permanentAddress": "San Jdfgdosedsfdfs",
+    "costalCode": "452962",
+    "userName": "Charline Reed",
+    "password": "*****",
+    "presentAddress": "San Jose, California, USAfbbc",
+    "city": "San Jose",
+    "country": "USAsfsdf"
+  },
+  "data": [
+    {
+      "date": "2024-09-01",
+      "value": "2457.4780952381",
+      "id": "d7d8"
+    },
+    {
+      "date": "2024-08-01",
+      "value": "2352.46727272727",
+      "id": "2889"
+    },
+    {
+      "date": "2024-07-01",
+      "value": "2349.1252173913",
+      "id": "4c99"
+    },
+    {
+      "date": "2024-06-01",
+      "value": "2497.6055",
+      "id": "2e4b"
+    },
+    {
+      "date": "2024-05-01",
+      "value": "2566.31869565217",
+      "id": "da1b"
+    },
+    {
+      "date": "2024-04-01",
+      "value": "2499.22818181818",
+      "id": "a85b"
+    }
+  ]
+}

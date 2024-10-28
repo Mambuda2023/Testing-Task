@@ -1,4 +1,5 @@
-import Navigation from "../../shared/ui/Navigation/Navigation";
+import { memo } from "react";
+import Navigation from "./UI/Navigation/Navigation";
 import "./NavBar.css";
 const NavBar = () => {
   return (
@@ -7,4 +8,4 @@ const NavBar = () => {
     </div>
   );
 };
-export default NavBar;
+export default memo(NavBar);

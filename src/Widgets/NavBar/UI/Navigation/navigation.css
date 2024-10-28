@@ -1,0 +1,22 @@
+.dashboard-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+
+.navigation-link {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 20px;
+  align-items: flex-end;
+  color: var(--gray-color);
+}
+
+.navigation-link.navigation-link_active {
+  color: var(--blue-color);
+}

@@ -9,20 +9,20 @@
 .nav-tab-item-link {
   font-size: 16px;
   font-weight: 500;
-  color: #718ebf;
+  color: var(--gray-color);
 }
 .nav-tab-item {
   position: relative;
 }
 .nav-tab-item > .active-tab {
-  color: #1814f3;
+  color: var(--blue-color);
   padding: 5px;
 }
 .nav-tab-item > .active-tab::before {
   position: absolute;
   content: "";
   height: 2px;
-  background: #1814f3;
+  background: var(--blue-color);
   width: 100%;
   bottom: -5px;
   left: 0;
@@ -50,7 +50,7 @@
   position: absolute;
   top: 100px;
   right: 20px;
-  background-color: #1814f3;
+  background-color: var(--blue-color);
   padding: 5px 7px;
   border-radius: 50%;
 }
@@ -61,7 +61,7 @@
 .form-button > button {
   border-radius: 15px;
   padding: 10px 50px;
-  background-color: #1814f3;
+  background-color: var(--blue-color);
 }
 .form-box {
   display: flex;
@@ -96,6 +96,9 @@
   border: 1px solid #dfeaf2;
   padding: 5px 10px;
   border-radius: 15px;
+  color: #718ebf;
+  font-weight: 400;
+  font-size: 15;
 }
 .form-button {
   display: flex;
@@ -104,5 +107,31 @@
 .form-button > button {
   border-radius: 15px;
   padding: 10px 50px;
-  background-color: #1814f3;
+  background-color: var(--blue-color);
+  color: white;
+}
+.edit-profile-button {
+  display: flex;
+}
+.edit-profile-button > img {
+  position: absolute;
+  width: 16px;
+  height: 17px;
+}
+.edit-profile-button > input {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--blue-color);
+  opacity: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 2;
+}
+input [type="file"] {
+  cursor: pointer;
+}
+::-webkit-file-upload-button {
+  cursor: pointer;
 }
